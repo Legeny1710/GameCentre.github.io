@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+header{
+    outline-style: none;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(0, 51, 94);;
+    height: 65px;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    padding-bottom: 1.5rem;
+
+    
+    
+}
+
+body{
+    background: rgb(0,28,75);
+    background: linear-gradient(90deg, rgba(0,28,75,1) 0%, rgba(4,141,207,1) 50%, rgba(0,237,255,1) 100%);
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.buttons{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 217, 255);
+    border-radius: -200%;
+    height: 55px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+    border: black;
+    border-style: groove;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: 0.4s;
+}
+
+
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(0, 51, 94);
+    color: rgb(255, 255, 255);
+
+}
+
+
+.informationBox{
+    outline-style: none;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgb(0, 51, 94);;
+    height: 130px;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.buttonArea{
+    outline-style: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+
+#message-el{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CardGame.css">
+    <title>Card Game</title>
+</head>
+<body>
+    <header>
+      <h1>Card Game</h1> 
+    </header>
+    <main>
+        <div class="informationBox">
+            <h3 id=message-el>Want to play?</h3>
+            <h3 id="cards-el">Cards: </h3>
+            <h3 id="sum-el">Sum: </h3>
+        </div>
+        <div class="buttonArea">
+            <button class="buttons" onclick="newCard()">New Card</button>
+            <button class="buttons" onclick="startGame()">Start Game</button>
+            <h3 id="player-el"></h3>
+            <h4>Welome to Card Game, you need to have exactly 30 point worth of card to win.</h4>
+            <h4>Rules are simple, just take a new card until you reach 30 or above, if you are above 30 you lose. So you can start again. It all about HOW Lucky You Are!</h4>
+            <h4>GOOD LUCK!</h4>
+            <p id="counter-el"></p>
+            <a href="index.html"><button class="buttons">Main Menu</button></a>
+        </div>
+    </main>
+    <script src="CardGame.js"></script>
+</body>
+</html>
