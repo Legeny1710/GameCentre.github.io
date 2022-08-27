@@ -45,7 +45,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: white;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
@@ -131,4 +131,42 @@ main .games button{
     color: white;
     padding-top: 1.5rem;
     
+}
+
+
+
+.MobileError{
+    position: absolute;
+    top: 10000%;
+}
+
+
+@media screen and (max-width:800px) {
+    .MobileError{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 470px;
+        background-color: red;
+        height: 160px;
+        text-align: center;
+        margin-top: 5rem;
+        border-radius: 1rem;
+        color: white;
+        padding-top: 1.5rem;
+        font-size: 28px;
+        padding: 50px 0;
+        
+    }
+    .MobileErrorBackground{
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        height: 1000%;
+        width: 100%;
+        background-color: red;
+    }
 }
