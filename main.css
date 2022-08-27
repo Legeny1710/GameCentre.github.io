@@ -148,7 +148,7 @@ main .games button{
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
-        width: 470px;
+        width: 390px;
         background-color: red;
         height: 160px;
         text-align: center;
@@ -166,7 +166,7 @@ main .games button{
         margin-right: -50%;
         transform: translate(-50%, -50%);
         height: 1000%;
-        width: 100%;
+        width: 1000%;
         background-color: red;
     }
 }
