@@ -1,23 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-*{
-    margin: 0;
-}
-
-header {
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    background-color: red;
-    height: 75px;
-    text-align: center;
-    margin-top: 5rem;
-    border-radius: 1rem;
-    color: white;
-    padding-top: 1.5rem;
-}
 
 body{
     font-family: "Poppins", sans-serif;
@@ -26,56 +8,83 @@ body{
     justify-content: center;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-nav {
+.home .contact {
+    transition: 0.6s;
+}
+
+.home:hover {
+    background-color: #000000;
+    border-radius: 10px;
+    width: 90px;
+
+}
+
+.contact:hover {
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.NavbarBox {
+    margin-top:0rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     background-color: red;
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
+    height: 105px;
+    width: 800px;
+    text-align: center;
+    margin-top: 5rem;
     border-radius: 1rem;
+    color: white;
     transition: 0.4s;
 }
 
-
-
-
-nav ul {
-    list-style: none;
+.NavbarBox2{
+    margin-top: 0.2rem;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: red;
+    height: 55px;
+    width: 800px;
+    text-align: center;
+    border-radius: 1rem;
     color: white;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    
+    transition: 0.4s;
+    margin-bottom: 1rem;
 }
 
-nav ul li{
-    border-radius: 0.5rem;
+.NavbarBox:hover {
+    background-color: #000000;
+    transform: translateY(-20px)
 }
 
-nav ul li:hover {
-    background-color: rgb(243, 0, 0);
+.NavbarLinks {
+    margin-top: 0;
 }
+
 
 a {
-    color: white;
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
-main .games{
-    background-color: white;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    border-radius: 1rem;
-    list-style: none;
-    padding-top: 1rem;
+
+
+
+.QuizGameBox {
+    display: flex;
+    justify-content: center;
 }
 
 main .games button{
@@ -92,81 +101,122 @@ main .games button{
     transition: 0.4s;
     outline-style: none;
     border-style: none;
+    margin-bottom: 2rem;
+    transition: 0.9s;
 }
+
+
 
 .QuizGame:hover{
     background: #000000;
     color: rgb(255, 255, 255);
+    transform: translateY(-10px);
 }
 
 .TicTacToe:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    transform: translateY(-10px);
 }
 
 .RockPaperScissors:hover{
     background-color: #000000;
     color: rgb(255, 255, 255);
+    transform: translateY(-10px);
 }
 
 .CardGame:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
+    transform: translateY(-10px);
 }
 
 
 
 .contactBox{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width:  790px;
     background-color: red;
-    height: 165px;
-    text-align: center;
+    height: 250px;
     margin-top: 5rem;
     border-radius: 1rem;
     color: white;
-    padding-top: 1.5rem;
     
 }
 
 
+.content {
+    display: flex;
+    justify-content: center;
 
-.MobileError{
-    position: absolute;
-    top: 10000%;
 }
 
 
-@media screen and (max-width:800px) {
-    .MobileError{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        width: 390px;
+
+
+@media screen and (max-width:900px) {
+    .NavbarBox {
+        margin-top:0rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         background-color: red;
-        height: 160px;
+        height: 105px;
+        width: 400px;
         text-align: center;
         margin-top: 5rem;
         border-radius: 1rem;
         color: white;
-        padding-top: 1.5rem;
-        font-size: 28px;
-        padding: 50px 0;
-        
+        transition: 0.4s;
     }
-    .MobileErrorBackground{
-        position: absolute;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        height: 1000%;
-        width: 1000%;
+    
+    .NavbarBox2{
+        margin-top: 0.2rem;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
         background-color: red;
+        height: 55px;
+        width: 400px;
+        text-align: center;
+        border-radius: 1rem;
+        color: white;
+        transition: 0.4s;
+        margin-bottom: 1rem;
+    }
+
+    main .games button{
+        height: 130px;
+        width: 300px;
+        font-size: 28px;
+        font-weight: bold;
+        padding-top: 1rem;
+        border-radius: 1rem;
+        padding-bottom: 1rem;
+        background-color: red;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        transition: 0.4s;
+        outline-style: none;
+        border-style: none;
+        margin-bottom: 2rem;
+        transition: 0.9s;
+    }
+
+    .contactBox {
+        display: flex;
+        justify-content: center;
+        width:  400px;
+        background-color: red;
+        height: 270px;
+        margin-top: 5rem;
+        border-radius: 1rem;
+        color: white;
+        padding-top: 1rem;
     }
 }
+
+
